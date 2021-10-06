@@ -1,7 +1,6 @@
 #!/bin/bash
+# 将src目录下的所有m3u8文件转换成mp4格式，转换得到视频文件保存在dst目录下
 
-#src="VideoData"
-#dst="tmp"
 src=$1  # 原来的m3u8文件所在的目录
 dst=$2  # 替换后的m3u8文件保存目录
 
